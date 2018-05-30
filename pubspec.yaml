@@ -1,19 +1,23 @@
 name: dryice
-version: 1.8.3
+version: 1.8.3+1
 author: Mike Mitterer <office@mikemitterer.at>
 description: Lightweight dependency injection framework for Dart.
 homepage: https://github.com/MikeMitterer/dryice
 
 environment:
-  sdk: '>=1.9.0 <2.0.0'
+    sdk: '>=2.0.0-dev.52.0 <2.0.0'
+#  sdk: '>=1.9.0 <2.0.0'
 
 dependencies:
   logging: ^0.11.0
 
 dev_dependencies:
-  browser: ^0.10.0
+#  browser: ^0.10.0
+  build_runner: ^0.8.8
+  build_test: ^0.10.2
+  build_web_compilers: ^0.4.0
 
   logging_handlers: ^0.8.0
-  console_log_handler: ^0.2.0
+  console_log_handler: 0.5.7
 
   test: any

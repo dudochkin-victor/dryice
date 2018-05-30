@@ -4,7 +4,7 @@
 
 part of dice;
 
-final Logger _logger = new Logger('dice._validate');
+//final Logger _logger = new Logger('dice._validate');
 
 /// Wrapper for [TypeMirror] to support multiple named registration for the same [Type] */
 class TypeMirrorWrapper {
